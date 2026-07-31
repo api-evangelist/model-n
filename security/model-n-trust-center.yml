@@ -1,0 +1,27 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://trust.modeln.com/
+url: https://trust.modeln.com/
+certifications:
+- SOC 1 Type 2
+- SOC 2 Type 2
+- ISO/IEC 27001:2022
+- CSA STAR Level 1
+- CSA STAR Level 2
+- EU-US Data Privacy Framework
+- UK Extension to EU-US DPF
+- Swiss-US DPF
+- TRUSTe
+- GDPR (Standard Contractual Clauses)
+evidence:
+- source: https://trust.modeln.com/
+  keywords:
+  - soc 1 type 2
+  - soc 2 type 2
+  - iso/iec 27001:2022
+  - csa star level 1
+  - csa star level 2
+  - eu-us data privacy framework
+  - truste
+  - trust center

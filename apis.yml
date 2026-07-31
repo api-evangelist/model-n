@@ -1,8 +1,25 @@
 aid: model-n
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/model-n.png
 name: Model N
-description: 'Model N is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Model N is a revenue management software company that has served the pharmaceutical
+  and medtech industries for more than 25 years. Its cloud commercial platform helps life sciences
+  innovators grow market access, optimize revenue, and maintain regulatory compliance across
+  provider and payer management, US Government Pricing and Medicaid, global pricing and tender
+  management, 340B vigilance, state price transparency, deal management, and its Intelligence
+  Cloud and Data nSights analytics. Model N is enterprise SaaS with a customer support portal
+  and knowledge center but no public developer API surface; this profile captures the company
+  identity plus its published security, trust, and compliance posture.'
 url: https://raw.githubusercontent.com/api-evangelist/model-n/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Life Sciences
+- Pharmaceutical
+- Medtech
+- Revenue Management
+- Government Pricing
+- Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/model-n-trust-center.yml
+- type: Compliance
+  url: https://trust.modeln.com/
+- type: DomainSecurity
+  url: security/model-n-domain-security.yml
+- type: Blog
+  url: https://www.modeln.com/blog/
+- type: Support
+  url: https://helpcenter.modeln.com/Knowledge_Center
 - type: Website
   url: http://www.modeln.com
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
