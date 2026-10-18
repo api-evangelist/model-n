@@ -46,7 +46,7 @@ tags:
 - Healthcare
 - Life Sciences
 - Pharmaceuticals
-- MedTech
+- Medical Technology
 - Revenue Management
 - Government Pricing
 - Compliance
@@ -59,6 +59,7 @@ tags_raw:
 - Revenue Management
 - Government Pricing
 - Compliance
+- MedTech
 apis: []
 maintainers:
 - FN: Kin Lane
